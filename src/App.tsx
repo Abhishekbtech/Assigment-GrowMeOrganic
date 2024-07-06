@@ -9,7 +9,6 @@ const FirstPage: React.FC = () => {
   return (
     <Container>
       <Typography variant="h4" gutterBottom>
-        User Information
       </Typography>
       <UserForm />
     </Container>
@@ -43,8 +42,6 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/" element={<FirstPage/>} />
         <Route path="/second" element={<SecondPage/>} />
-        {/* <Route path='/data-table' element={<DataTable/>}/> */}
-        {/* <redirect to="/" /> */}
       </Routes>
     </Router>
   );
