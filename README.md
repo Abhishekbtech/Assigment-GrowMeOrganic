@@ -47,17 +47,20 @@ Deployment link of my project 'https://assigment-grow-me-organic-abhishek-chuaha
 - Allows users to input their name, phone number, and email.
 - Submits the form to save details in local storage.
 - Upon successful submission, users are routed to the second page.
-Data Table
-Fetches data from an API and displays it in a table.
-Implemented using the MUI DataGrid component for efficient data display.
-Collapsible Department List
-Displays departments and sub-departments.
-Users can expand/collapse sub-departments using icons.
-Allows selection/deselection of departments and sub-departments.
-Dependencies
-@mui/material: Material-UI components.
-@emotion/react, @emotion/styled: Emotion library for styling.
-@mui/icons-material: Material-UI icons.
-@mui/x-data-grid: DataGrid component for displaying tables.
-react-router-dom: Routing library for React.
-axios: Promise-based HTTP client for the browser and Node.js.
+
+**Data Table**
+- Fetches data from an API and displays it in a table.
+- Implemented using the MUI DataGrid component for efficient data display.
+
+**Collapsible Department List**
+- Displays departments and sub-departments.
+- Users can expand/collapse sub-departments using icons.
+- Allows selection/deselection of departments and sub-departments.
+
+**Dependencies**
+- @mui/material: Material-UI components.
+- @emotion/react, @emotion/styled: Emotion library for styling.
+- @mui/icons-material: Material-UI icons.
+- @mui/x-data-grid: DataGrid component for displaying tables.
+- react-router-dom: Routing library for React.
+- axios: Promise-based HTTP client for the browser and Node.js.
