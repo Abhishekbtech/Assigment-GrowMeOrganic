@@ -1,30 +1,39 @@
-# React + TypeScript + Vite
+# React Internship Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project is a React application created as part of an internship assignment. The application is built using TypeScript and Vite, and it implements various functionalities using Material-UI (MUI). The application includes a user form to collect information, displays JSON data in a table, and features a collapsible list of departments and sub-departments.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+1. **User Form**: Collects user information (name, phone number, email) and saves it to local storage.
+2. **Data Table**: Fetches JSON data from an API and displays it in a table using MUI DataGrid.
+3. **Collapsible Department List**: Displays a list of departments and sub-departments that can be expanded and collapsed. Users can select departments and sub-departments.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies Used
 
-- Configure the top-level `parserOptions` property like this:
+- **React**: Front-end library for building user interfaces.
+- **TypeScript**: Typed superset of JavaScript.
+- **Vite**: Next generation front-end tooling.
+- **Material-UI (MUI)**: React components for faster and easier web development.
+- **React Router**: Declarative routing for React.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Installation
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/apple-music-clone.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd my-react-app
+    ```
+3. Install dependencies:
+    ```sh
+    npm install
+    ```
+4. Start the development server:
+    ```sh
+    npm run dev
+    ```
+5. Open your browser and navigate to 'http://localhost:5173' to see the app.
